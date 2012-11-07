@@ -95,11 +95,10 @@ public class FirstClass {
 		System.out.println("lub wcisnij cokolwiek innego by wyjsc.");
 		myChoice = myScanner.nextLine();
 		
-		try 
-		{
+		try {
 			myInt = Integer.parseInt(myChoice);
-		} catch(NumberFormatException nFE)
-		{
+		}
+		catch(NumberFormatException nFE) {
 			System.exit(0);
 		}
 		
