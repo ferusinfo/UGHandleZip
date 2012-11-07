@@ -54,7 +54,6 @@ public class FirstClass {
 		}
 		
 		ZipInputStream myZip = new ZipInputStream(new FileInputStream(myFileName));
-		BufferedReader myBr = new BufferedReader(new InputStreamReader(myZip));
 		
 		ZipEntry myZe;
 		String currentLine;
