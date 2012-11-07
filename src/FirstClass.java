@@ -119,7 +119,7 @@ public class FirstClass {
 					
 					try {
 						fout.write(contentString);
-						fout.flush();
+						//Close calls flush(), no need to call it again
 						fout.close();
 					} catch (IOException e)
 					{
