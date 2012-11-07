@@ -1,8 +1,19 @@
-//Import classes and libs
+/**
+ * UG Handle Zip
+ * Program wynkonany na zaliczenie przedmiotu Programowanie Obiektowe
+ * @author Maciej Kołek <kontakt@ferus.info>
+ */
+
+/**
+ * Libraries importing
+ */
 import java.util.*;
 import java.io.*;
 import java.util.zip.*;
 
+/**
+ * Main class file
+ */
 public class FirstClass {
 
 	/**
@@ -42,7 +53,6 @@ public class FirstClass {
 			System.exit(0);
 		}
 		
-		//TODO: Open zip
 		ZipInputStream myZip = new ZipInputStream(new FileInputStream(myFileName));
 		BufferedReader myBr = new BufferedReader(new InputStreamReader(myZip));
 		
