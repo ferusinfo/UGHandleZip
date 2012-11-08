@@ -25,3 +25,6 @@ then compress it to a single .zip. Option two serializes your objects data and p
 Take note that every person should be in own unique file (every person data is gathered from it) - otherwise you won't get more than one person at the end.
 
 Feel free to contact me at any time: kontakt@ferus.info / [@ferusinfo](http://twiter.com/ferusinfo)
+
+### Additional notes ###
+If you found any **grammar nazi** or **code convention** breaking - just contact me. I am not that expirienced in Java yet, so any comments are highly recommended.
