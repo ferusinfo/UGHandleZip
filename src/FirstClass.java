@@ -30,7 +30,6 @@ public class FirstClass {
 			Scanner myScanner = new Scanner(System.in);
 			System.out.println("Wpisz nazwę pliku, który chcesz aby został odzipowany");
 			myFileName = myScanner.nextLine();
-			System.out.println(myFileName);
 			counter++;
 			File myFile = new File(myFileName);
 			if (!myFile.exists()) {
@@ -84,9 +83,9 @@ public class FirstClass {
 			persons.add(person);
 		}
 		
-
 		String myChoice;
 		Integer myInt = 0;
+		
 		Scanner myScanner = new Scanner(System.in);
 		System.out.println("=== WYBIERZ ===");
 		System.out.println("1 aby utworzyć ZIP z tymi danymi;");
@@ -163,6 +162,7 @@ public class FirstClass {
 				}
 			break;
 			case 3:
+				//Simply output persons array
 				System.out.println();
 				System.out.println();
 				for (Object persona : persons)
